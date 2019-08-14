@@ -33,7 +33,7 @@ jobs:
 
           path: build/test-results
 
-      - persist_to_work_space:
+      - persist_to_workspace:
           root: .
           path: 
             - .
